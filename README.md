@@ -1,0 +1,36 @@
+# Deep Learning BDF
+
+Course-style repo with notebooks and Python scripts that cover introductory neural networks and macroeconomic dynamic programming exercises.
+
+## Structure
+
+- 00-intro-nn: Intro neural network training notebooks (NumPy and PyTorch).
+- 01-ramsey: solve the Ramsey model with deep-learning and compare to VFI
+- 02-rbc: add TFP shocks to the Ramsey model (RBC mdoel), solve it with deep-learning and compare to VFI
+- 03-consumption-saving: solve the simple consumption-saving model with idiosyncratic productivity shocks and a non-borrowing constraint with deep-learning and compare it to VFI
+- 04-consumption-saving-multiple-shocks: Placeholder for extended consumption–saving exercises.
+
+## Getting started
+
+1. Create a Python environment (3.9+ recommended).
+2. Install standard scientific packages plus PyTorch and QuantEcon.
+	- Minimum set: numpy, scipy, matplotlib, pandas, jupyter, torch, quantecon.
+	- Optional: seaborn for plots.
+3. Install with either pip or conda:
+
+	**pip**
+	```bash
+	pip install numpy scipy matplotlib pandas jupyter torch quantecon
+	```
+
+	**conda**
+	```bash
+	conda install numpy scipy matplotlib pandas jupyter
+	conda install pytorch -c pytorch
+	pip install quantecon
+	```
+3. Open the notebooks in Jupyter or VS Code and run cells top to bottom.
+
+## Notes
+
+- Scripts ending in `_vfi.py` implement value function iteration variants used by the notebooks.
