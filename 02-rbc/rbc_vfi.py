@@ -1,7 +1,6 @@
 import numpy as np
 from quantecon.optimize import brent_max
 import quantecon as qe
-from consav.linear_interp import interp_1d
 import numba as nb 
 import matplotlib.pyplot as plt
 
@@ -17,7 +16,6 @@ delta = 0.05    # Depreciation rate
 rho_Z = 0.9         # Persistence
 sigma_Z = 0.01     # Shock standard deviation
 
-
 # Steady-state interest rate (from Euler equation with Z=1)
 r_ss = 1/beta - 1
 
@@ -26,8 +24,8 @@ Z_ss = 1.0
 K_ss = ((r_ss + delta) / (alpha * Z_ss))**(1/(alpha - 1))
 
 # Capital grid bounds
-K_min = K_ss * 0.8
-K_max = K_ss * 1.2
+K_min = K_ss * 0.5
+K_max = K_ss * 2.0
 
 
 # =============================================================================

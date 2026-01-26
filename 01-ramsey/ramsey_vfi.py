@@ -18,8 +18,8 @@ r_ss = 1/beta - 1
 K_ss = ((r_ss + delta) / (alpha))**(1/(alpha - 1))
 
 # Capital grid bounds
-K_min = K_ss * 0.8
-K_max = K_ss * 1.2
+K_min = K_ss * 0.5
+K_max = K_ss * 2.0
 
 
 # =============================================================================
