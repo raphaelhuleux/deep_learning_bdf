@@ -19,7 +19,7 @@ sigma_Z = 0.2     # Shock standard deviation
 
 nA = 1000
 Amin = 0.0
-Amax = 10.0
+Amax = 5.0
 A_grid = np.linspace(Amin, Amax, nA)
 
 # TFP grid using QuantEcon's Tauchen method
