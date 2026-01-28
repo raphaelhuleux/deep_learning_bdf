@@ -8,7 +8,6 @@ Course-style repo with notebooks and Python scripts that cover introductory neur
 - 01-ramsey: solve the Ramsey model with deep-learning and compare to VFI
 - 02-rbc: add TFP shocks to the Ramsey model (RBC mdoel), solve it with deep-learning and compare to VFI
 - 03-consumption-saving: solve the simple consumption-saving model with idiosyncratic productivity shocks and a non-borrowing constraint with deep-learning and compare it to VFI
-- 04-consumption-saving-multiple-shocks: Placeholder for extended consumption–saving exercises.
 
 ## Getting started
 
