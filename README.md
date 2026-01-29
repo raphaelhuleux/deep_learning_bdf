@@ -13,8 +13,6 @@ Course-style repo with notebooks and Python scripts that cover introductory neur
 
 1. Create a Python environment (3.12.2 recommended).
 2. Install standard scientific packages plus PyTorch and QuantEcon.
-	- Minimum set: numpy, scipy, matplotlib, pandas, jupyter, torch, quantecon.
-	- Optional: seaborn for plots.
 3. Install with either pip or conda:
 
 	**pip**
@@ -28,7 +26,7 @@ Course-style repo with notebooks and Python scripts that cover introductory neur
 	conda install pytorch -c pytorch
 	pip install quantecon
 	```
-3. Open the notebooks in Jupyter or VS Code and run cells top to bottom.
+4. Open the notebooks in Jupyter or VS Code and run cells top to bottom.
 
 ## Notes
 
