@@ -33,3 +33,7 @@ Course-style repo with notebooks and Python scripts that cover introductory neur
 ## Notes
 
 - Scripts ending in `_vfi.py` implement value function iteration variants used by the notebooks.
+
+## Acknowledgements 
+
+- A key source of inspiration for all the code in this repository is Maliar, Maliar, Winant (2022) and the code [provided](https://github.com/QuantEcon/notebook-gallery/blob/22e3922ebe475f39a99a1df9bb953f42722eeaa1/ipynb/pablo_winant-dl_notebook.ipynb#L6). All remaining errors are naturally mine.
