@@ -14,7 +14,7 @@ delta = 0.05    # Depreciation rate
 
 # TFP process (log-AR(1))
 rho_Z = 0.9         # Persistence
-sigma_Z = 0.01     # Shock standard deviation
+sigma_Z = 0.001     # Shock standard deviation
 
 # Steady-state interest rate (from Euler equation with Z=1)
 r_ss = 1/beta - 1

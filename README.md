@@ -11,7 +11,7 @@ Course-style repo with notebooks and Python scripts that cover introductory neur
 
 ## Getting started
 
-1. Create a Python environment (3.9+ recommended).
+1. Create a Python environment (3.12.2 recommended).
 2. Install standard scientific packages plus PyTorch and QuantEcon.
 	- Minimum set: numpy, scipy, matplotlib, pandas, jupyter, torch, quantecon.
 	- Optional: seaborn for plots.
